@@ -1,8 +1,8 @@
 import MyImage from "../images/me.jpg";
 export default function Header() {
   return (
-    <header className="">
-      <img src={MyImage} alt="me" />
+    <header>
+      <img src={MyImage} alt="me" className="rounded-t-[10px]" />
       <div className="text-center mt-[21px] mb-[16px]">
         <h1 className="text-[1.5625rem] font-bold mb-[6px]">Yusuf Alnasiri</h1>
         <h2 className="text-[#F3BF99] text-[0.8rem]">Frontend Developer</h2>
