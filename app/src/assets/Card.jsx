@@ -4,7 +4,7 @@ import Details from "./details"
 import Footer from "./footer"
 export default function Card(){
     return(
-        <div className="container max-w-lg">
+        <div className="container max-w-[317px] m-auto bg-[#1A1B21] text-white flex flex-col rounded-[10px]">
             <Header/>
             <Buttons/>
             <Details/>
